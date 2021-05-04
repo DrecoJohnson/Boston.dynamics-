@@ -134,6 +134,66 @@
         </ul>
    </footer>
 
+   <script>
+        // const constantVariable = "Hello Constant"
+        // let fluidVariable = "Hello Fluid"
 
+        // console.log(constantVariable) // is the same as console.log("Hello Constant")
+        // console.log(fluidVariable)    // is the same as console.log("Hello Fluid")
+        
+        // fluidVariable = "New Value"
+        // console.log(fluidVariable)  // is the same as console.log("New Value")
+
+        // const myArray = ["words", 100, {}, true]
+
+        // console.log(myArray[1])
+        // console.log(myArray[0])
+
+
+
+        // const object = {
+        //     speciallyNamedKey: "whatever value",
+        //     otherKey: "other value"
+        // }
+
+        // console.log(object)
+        // console.log(object.speciallyNamedKey)
+        // console.log(object["otherKey"])
+        
+        
+        
+        
+        
+        let someString = "some part of a sentence. "
+        let someOtherString = "Some other part"
+
+        // console.log(someString + someOtherString)
+        
+        
+
+
+
+
+        function myFirstFunction(parameter){
+            parameter = parameter + " that we added some text to"
+            if(parameter.length > 25){
+                // Do a bunch of stuff
+                parameter = parameter + ' that is too long'
+            }
+
+            return parameter + " something"
+        }
+        
+        let myParameter = "some parameter"
+        let modifiedParameter = myFirstFunction(myParameter) 
+        // step 1: myFirstFunction("some parameter")
+        // step 2: parameter + " that we added some text to"
+        // step 3: "some parameter" + " that we added some text to"
+
+        console.log(modifiedParameter)
+        
+
+
+   </script>
 </body>
 </html>

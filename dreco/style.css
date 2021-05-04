@@ -1,0 +1,102 @@
+*{
+    font-family: "Gotham", "Helvetica",sans-serif;
+    color: #00355A;
+    line-height: 1.5;
+    font-size: 1rem;
+    margin: 0;
+}
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 80px;
+      
+}
+.header_contentList{
+    display: flex; 
+    margin-top: 25px;
+    margin-right: 24px;
+}
+
+.header_listItem{
+    margin-right: .8em;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.overlay{
+    position: absolute;
+    top:60%;
+    left:10%;
+    z-index:1; 
+}
+h1{
+    font-size:xx-large;
+}
+h2{
+    font-size:large;
+}
+/* .overlay_spot{
+    position:absolute;
+    top: 170%;
+    left:10%;
+    
+} */
+
+body{
+    background-color: white;
+    font-size:25px;
+}
+.footer_contentList{
+    display: flex;
+    justify-content:right;
+    margin-top: 25px;
+    margin-right: 24px;
+    list-style: none;
+}
+.footer_listitem{
+    margin-right: .8em;
+    list-style: none;
+}
+.Spot_specs{
+    height: auto
+}
+.resources{
+    display: flex; 
+    flex-wrap: wrap; 
+    border: 24px solid red;
+}
+.resource_grid{
+    background-color: #bbb7b7af;
+    max-width: 400px;
+    max-height: 500px;
+    margin:25px;
+}
+.kidd_creek{
+    background-color: #bbb7b7af;
+    max-width: 400px;
+    max-height: 500px;
+    margin: 25px;
+}
+.developer_spotlight{
+    background-color: #bbb7b7af;
+    max-width: 400px;
+    max-height: 500px;
+    margin: 25px;
+}
+.spot_intro{
+    background-color: #bbb7b7af;
+    max-width: 400px;
+    max-height: 500px;
+    margin: 25px;
+}
+footer{
+    background-color:#00355a;
+}
+
+#background-video{
+    height: auto;
+    min-width: 100%;
+    position: relative;
+}

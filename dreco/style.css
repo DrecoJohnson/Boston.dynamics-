@@ -33,9 +33,19 @@ a{
 }
 h1{
     font-size:xx-large;
+    margin-left: 25px;
 }
 h2{
     font-size:large;
+    margin-left: 25px;
+}
+h3{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+h4{
+    margin-left: 25px;
+    margin-right: 25px;
 }
 /* .overlay_spot{
     position:absolute;
@@ -43,7 +53,10 @@ h2{
     left:10%;
     
 } */
-
+p{
+    margin-left: 25px;
+    margin-right: 25px;
+}
 body{
     background-color: white;
     font-size:25px;

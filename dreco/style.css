@@ -12,6 +12,9 @@
     height: 80px;
       
 }
+.header_container img{
+    margin-left: 25px;
+}
 .header_contentList{
     display: flex; 
     margin-top: 25px;
@@ -25,11 +28,10 @@
 a{
     text-decoration: none;
 }
-.overlay{
+.hero.overlay{
     position: absolute;
-    top:60%;
-    left:10%;
-    z-index:1; 
+    top:50%;
+    left:50%;
 }
 h1{
     font-size:xx-large;
@@ -74,35 +76,41 @@ body{
 }
 .Spot_specs{
     height: auto
+}    
+.Resources{
+    display: flex;
 }
-.resources{
-    display: flex; 
-    flex-wrap: wrap; 
-    border: 24px solid red;
-}
+
 .resource_grid{
+    display: flex;
+    flex-direction: column;
     background-color: #bbb7b7af;
     max-width: 400px;
     max-height: 500px;
     margin:25px;
 }
 .kidd_creek{
+    display: flex;
+    flex-direction: column;
     background-color: #bbb7b7af;
     max-width: 400px;
     max-height: 500px;
     margin: 25px;
 }
-.developer_spotlight{
-    background-color: #bbb7b7af;
+.Developer_spotlight{
+    flex-direction: column;
+    background-color:#bbb7b7af;
     max-width: 400px;
     max-height: 500px;
     margin: 25px;
 }
-.spot_intro{
-    background-color: #bbb7b7af;
+.Spot_intro{
+    display: flex;
+    flex-direction: column;
+    background-color:#bbb7b7af;
     max-width: 400px;
     max-height: 500px;
-    margin: 25px;
+    margin: 25px;  
 }
 footer{
     background-color:#00355a;
